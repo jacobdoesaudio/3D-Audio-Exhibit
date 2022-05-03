@@ -16,20 +16,5 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3587119738" Language="SFX" Hash="1195974228">
-			<ObjectPath>\SoundBanks\Default Work Unit\MainScene</ObjectPath>
-			<ShortName>MainScene</ShortName>
-			<Path>MainScene.bnk</Path>
-			<IncludedEvents>
-				<Event Id="3433433191" Name="Play_Group___0014___DRUMS" ObjectPath="\Events\Default Work Unit\Play_Group___0014___DRUMS" DurationType="OneShot" DurationMin="190.344849" DurationMax="190.344849">
-					<IncludedMemoryFiles>
-						<File Id="797023405" Language="SFX">
-							<ShortName>Group - 0014 - DRUMS.wav</ShortName>
-							<Path>SFX\Group - 0014 - DRUMS_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-			</IncludedEvents>
-		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
