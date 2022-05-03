@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3433433191	Play_Group___0014___DRUMS			\Default Work Unit\Play_Group___0014___DRUMS	
+	3596766455	Play_Group___0020___KEYS			\Default Work Unit\Play_Group___0020___KEYS	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	218483781	Group - 0020 - KEYS	C:\Users\jacob\3D Audio Exhibit\3D Audio Exhibit_WwiseProject\.cache\Windows\SFX\Group - 0020 - KEYS_10C4C929.wem		\Actor-Mixer Hierarchy\Keys\Group - 0020 - KEYS		36546276
+	797023405	Group - 0014 - DRUMS	C:\Users\jacob\3D Audio Exhibit\3D Audio Exhibit_WwiseProject\.cache\Windows\SFX\Group - 0014 - DRUMS_10C4C929.wem		\Actor-Mixer Hierarchy\Drums\Group - 0014 - DRUMS		36546276
+
