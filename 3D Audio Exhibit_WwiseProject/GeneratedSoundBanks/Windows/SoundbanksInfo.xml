@@ -16,12 +16,12 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3587119738" Language="SFX" Hash="3792023076">
+		<SoundBank Id="3587119738" Language="SFX" Hash="3990151806">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainScene</ObjectPath>
 			<ShortName>MainScene</ShortName>
 			<Path>MainScene.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3433433191" Name="Play_Group___0014___DRUMS" ObjectPath="\Events\Default Work Unit\Play_Group___0014___DRUMS" DurationType="OneShot" DurationMin="190.344849" DurationMax="190.344849">
+				<Event Id="3433433191" Name="Play_Group___0014___DRUMS" ObjectPath="\Events\Default Work Unit\Play_Group___0014___DRUMS" MaxAttenuation="20." DurationType="OneShot" DurationMin="190.344849" DurationMax="190.344849">
 					<IncludedMemoryFiles>
 						<File Id="797023405" Language="SFX">
 							<ShortName>Group - 0014 - DRUMS.wav</ShortName>
@@ -29,7 +29,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3596766455" Name="Play_Group___0020___KEYS" ObjectPath="\Events\Default Work Unit\Play_Group___0020___KEYS" DurationType="OneShot" DurationMin="190.344849" DurationMax="190.344849">
+				<Event Id="3596766455" Name="Play_Group___0020___KEYS" ObjectPath="\Events\Default Work Unit\Play_Group___0020___KEYS" MaxAttenuation="20." DurationType="OneShot" DurationMin="190.344849" DurationMax="190.344849">
 					<IncludedMemoryFiles>
 						<File Id="218483781" Language="SFX">
 							<ShortName>Group - 0020 - KEYS.wav</ShortName>
