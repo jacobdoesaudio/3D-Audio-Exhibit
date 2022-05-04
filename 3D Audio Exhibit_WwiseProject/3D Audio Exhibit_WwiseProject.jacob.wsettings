@@ -8,7 +8,9 @@
 				<Property Name="Event Action List\{2EB7D072-EC33-4D80-A237-C57BB681A6FC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{336E312E-203E-4ECD-832D-31EB1F229C4C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{7EB98530-9C2B-4EF1-ADE0-0515DBF4B38E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{EC7EC6C7-9432-4C52-ACDB-8D4FE0D23722}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{EE2AE665-BBCF-4F64-91FF-662C2408A5DC}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{FE8AF802-9569-474C-A8A8-5EE8BBD7B525}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>

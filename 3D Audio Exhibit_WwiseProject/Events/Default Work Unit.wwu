@@ -58,6 +58,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Group___0039___SAX" ID="{FE8AF802-9569-474C-A8A8-5EE8BBD7B525}">
+					<ChildrenList>
+						<Action Name="" ID="{9D3460F1-6033-42A1-8D06-F3FA029CA08D}" ShortID="9688212">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Group - 0039 - SAX" ID="{36C6628A-3ED7-4227-8818-6EFAFD2D96B6}" WorkUnitID="{AA675AC9-2C51-4D70-8E9C-BA85F67F16F4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

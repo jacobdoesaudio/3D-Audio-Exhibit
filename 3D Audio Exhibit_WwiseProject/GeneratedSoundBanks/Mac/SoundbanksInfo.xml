@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3587119738" Language="SFX" Hash="130764006">
+		<SoundBank Id="3587119738" Language="SFX" Hash="2653687942">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainScene</ObjectPath>
 			<ShortName>MainScene</ShortName>
 			<Path>MainScene.bnk</Path>
@@ -50,6 +50,14 @@
 						<File Id="126495458" Language="SFX">
 							<ShortName>Group - 0037 - GTR.wav</ShortName>
 							<Path>SFX\Group - 0037 - GTR_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2044558763" Name="Play_Group___0039___SAX" ObjectPath="\Events\Default Work Unit\Play_Group___0039___SAX" MaxAttenuation="20." DurationType="OneShot" DurationMin="190.344849" DurationMax="190.344849">
+					<IncludedMemoryFiles>
+						<File Id="1020923345" Language="SFX">
+							<ShortName>Group - 0039 - SAX.wav</ShortName>
+							<Path>SFX\Group - 0039 - SAX_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

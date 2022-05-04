@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID PLAY_GROUP___0016___BASS = 1246022167U;
         static const AkUniqueID PLAY_GROUP___0020___KEYS = 3596766455U;
         static const AkUniqueID PLAY_GROUP___0037___GTR = 2912176820U;
+        static const AkUniqueID PLAY_GROUP___0039___SAX = 2044558763U;
         static const AkUniqueID PLAY_GROUP___0060___FX = 2620452669U;
     } // namespace EVENTS
 
