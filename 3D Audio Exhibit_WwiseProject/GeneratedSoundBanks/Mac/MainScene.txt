@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1246022167	Play_Group___0016___BASS			\Default Work Unit\Play_Group___0016___BASS	
+	2620452669	Play_Group___0060___FX			\Default Work Unit\Play_Group___0060___FX	
+	2912176820	Play_Group___0037___GTR			\Default Work Unit\Play_Group___0037___GTR	
+	3433433191	Play_Group___0014___DRUMS			\Default Work Unit\Play_Group___0014___DRUMS	
+	3596766455	Play_Group___0020___KEYS			\Default Work Unit\Play_Group___0020___KEYS	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	126495458	Group - 0037 - GTR	C:\Users\jacob\3D Audio Exhibit\3D Audio Exhibit_WwiseProject\.cache\Mac\SFX\Group - 0037 - GTR_10C4C929.wem		\Actor-Mixer Hierarchy\Guitar\Group - 0037 - GTR		36546276
+	218483781	Group - 0020 - KEYS	C:\Users\jacob\3D Audio Exhibit\3D Audio Exhibit_WwiseProject\.cache\Mac\SFX\Group - 0020 - KEYS_10C4C929.wem		\Actor-Mixer Hierarchy\Keys\Group - 0020 - KEYS		36546276
+	241893714	Group - 0016 - BASS	C:\Users\jacob\3D Audio Exhibit\3D Audio Exhibit_WwiseProject\.cache\Mac\SFX\Group - 0016 - BASS_10C4C929.wem		\Actor-Mixer Hierarchy\Bass\Group - 0016 - BASS		36546276
+	394566722	Group - 0060 - FX	C:\Users\jacob\3D Audio Exhibit\3D Audio Exhibit_WwiseProject\.cache\Mac\SFX\Group - 0060 - FX_10C4C929.wem		\Actor-Mixer Hierarchy\FX\Group - 0060 - FX		36546276
+	797023405	Group - 0014 - DRUMS	C:\Users\jacob\3D Audio Exhibit\3D Audio Exhibit_WwiseProject\.cache\Mac\SFX\Group - 0014 - DRUMS_10C4C929.wem		\Actor-Mixer Hierarchy\Drums\Group - 0014 - DRUMS		36546276
+

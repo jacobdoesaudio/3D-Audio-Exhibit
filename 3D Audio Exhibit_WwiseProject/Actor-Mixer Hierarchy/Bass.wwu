@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D4ACB6D3-4E51-462B-B996-920173CC5512}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Bass" ID="{D4ACB6D3-4E51-462B-B996-920173CC5512}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Group - 0016 - BASS" ID="{81E9632D-F2A4-4F7F-BD71-92DA084970B8}" ShortID="289037481">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default Atten" ID="{711B0226-10BC-4FBD-B7B4-CF6EC442FDC1}" WorkUnitID="{AEDFB089-69E0-4D18-BB43-4107A9F11971}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F2CACA1-DBA9-447F-AEA8-6D7FEB5CB7FB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3121E877-DB96-4AB8-BF47-55A81420E75C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Group - 0016 - BASS" ID="{108FFA43-0C89-4E8A-9C87-1000E73B537B}">
+							<Language>SFX</Language>
+							<AudioFile>Group - 0016 - BASS.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="241893714"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Group - 0016 - BASS" ID="{108FFA43-0C89-4E8A-9C87-1000E73B537B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
