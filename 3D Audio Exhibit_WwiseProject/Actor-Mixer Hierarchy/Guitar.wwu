@@ -6,11 +6,6 @@
 				<Sound Name="Group - 0037 - GTR" ID="{7158F049-4DC8-4059-BE57-DC218778E0B6}" ShortID="803889061">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-2</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">

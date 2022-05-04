@@ -3,18 +3,96 @@
 	<AudioObjects>
 		<WorkUnit Name="FX" ID="{26F6F76C-279F-4E42-B975-F9BB41D65CEE}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="Group - 0060 - FX" ID="{3AE07EDA-E5E6-408F-80C9-5A47ADBD749D}" ShortID="584710498">
+				<Sound Name="Group - 0060 - FX-redux" ID="{5656175F-E07D-4FD2-9ABB-A2EC62B68087}" ShortID="776780428">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-9</Value>
-							</ValueList>
-						</Property>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="Drum Atten" ID="{EDCFF188-096B-4F29-A5D8-31ACF871250C}" WorkUnitID="{AEDFB089-69E0-4D18-BB43-4107A9F11971}"/>
+							<Custom CreatedFrom="{EDCFF188-096B-4F29-A5D8-31ACF871250C}">
+								<Attenuation Name="Drum Atten (Custom)" ID="{BBA3FFC6-D5C1-4BDF-AB61-4608BC2C04AE}" ShortID="962234852">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="60"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{1EA58277-1D26-4EBF-92D2-9E70EF40D1AA}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>60</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="LowPassFilter" ID="{D7ECDD0D-1BBE-4F1B-973B-44A39B831521}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>60</XPos>
+															<YPos>100</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None">
+												<Curve Name="HighPassFilter" ID="{52AEE3A8-68A7-4A23-961F-E340E506A75E}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>60</XPos>
+															<YPos>100</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F2CACA1-DBA9-447F-AEA8-6D7FEB5CB7FB}"/>
@@ -24,7 +102,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Group - 0060 - FX" ID="{F7985A01-50CF-4633-A7CA-28C4CB2B4594}">
+						<AudioFileSource Name="Group - 0060 - FX" ID="{804F7CE1-B53B-4E2A-87B4-2D4D0A4CE0E3}">
 							<Language>SFX</Language>
 							<AudioFile>Group - 0060 - FX.wav</AudioFile>
 							<MediaIDList>
@@ -34,7 +112,7 @@
 					</ChildrenList>
 					<ObjectLists/>
 					<ActiveSourceList>
-						<ActiveSource Name="Group - 0060 - FX" ID="{F7985A01-50CF-4633-A7CA-28C4CB2B4594}" Platform="Linked"/>
+						<ActiveSource Name="Group - 0060 - FX" ID="{804F7CE1-B53B-4E2A-87B4-2D4D0A4CE0E3}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

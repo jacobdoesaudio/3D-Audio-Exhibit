@@ -47,23 +47,27 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Group___0060___FX" ID="{EE2AE665-BBCF-4F64-91FF-662C2408A5DC}">
-					<ChildrenList>
-						<Action Name="" ID="{B3DD427B-784B-4F4D-B746-EF4E05D42422}" ShortID="1038353875">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Group - 0060 - FX" ID="{3AE07EDA-E5E6-408F-80C9-5A47ADBD749D}" WorkUnitID="{26F6F76C-279F-4E42-B975-F9BB41D65CEE}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Group___0039___SAX" ID="{FE8AF802-9569-474C-A8A8-5EE8BBD7B525}">
 					<ChildrenList>
 						<Action Name="" ID="{9D3460F1-6033-42A1-8D06-F3FA029CA08D}" ShortID="9688212">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Group - 0039 - SAX" ID="{36C6628A-3ED7-4227-8818-6EFAFD2D96B6}" WorkUnitID="{AA675AC9-2C51-4D70-8E9C-BA85F67F16F4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Group___0060___FX_redux" ID="{1B710E96-A6D1-44A1-9FAF-AEDEF2ACD808}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{D1F209C4-B17B-4062-B3E9-9EA0381934EA}" ShortID="937151962">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Group - 0060 - FX-redux" ID="{5656175F-E07D-4FD2-9ABB-A2EC62B68087}" WorkUnitID="{26F6F76C-279F-4E42-B975-F9BB41D65CEE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -5,15 +5,11 @@
 			<ChildrenList>
 				<Sound Name="Group - 0016 - BASS" ID="{81E9632D-F2A4-4F7F-BD71-92DA084970B8}" ShortID="289037481">
 					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>3</Value>
-							</ValueList>
-						</Property>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="Default Atten" ID="{711B0226-10BC-4FBD-B7B4-CF6EC442FDC1}" WorkUnitID="{AEDFB089-69E0-4D18-BB43-4107A9F11971}"/>
+							<ObjectRef Name="Bass Atten" ID="{3780B4E9-31DD-466E-B138-99F04DE86A8E}" WorkUnitID="{AEDFB089-69E0-4D18-BB43-4107A9F11971}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F2CACA1-DBA9-447F-AEA8-6D7FEB5CB7FB}"/>

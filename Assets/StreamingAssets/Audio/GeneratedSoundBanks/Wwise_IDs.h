@@ -18,7 +18,7 @@ namespace AK
         static const AkUniqueID PLAY_GROUP___0020___KEYS = 3596766455U;
         static const AkUniqueID PLAY_GROUP___0037___GTR = 2912176820U;
         static const AkUniqueID PLAY_GROUP___0039___SAX = 2044558763U;
-        static const AkUniqueID PLAY_GROUP___0060___FX = 2620452669U;
+        static const AkUniqueID PLAY_GROUP___0060___FX_REDUX = 1211835638U;
     } // namespace EVENTS
 
     namespace BANKS
