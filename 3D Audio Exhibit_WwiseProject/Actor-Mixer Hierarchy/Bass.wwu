@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{DC48B8B8-9297-47C2-8D58-A42E6AC1500E}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{D4ACB6D3-4E51-462B-B996-920173CC5512}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Drums" ID="{DC48B8B8-9297-47C2-8D58-A42E6AC1500E}" PersistMode="Standalone">
+		<WorkUnit Name="Bass" ID="{D4ACB6D3-4E51-462B-B996-920173CC5512}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="Group - 0014 - DRUMS" ID="{FE6A617D-B325-4F43-9186-3605463F014F}" ShortID="692226497">
+				<Sound Name="Group - 0016 - BASS" ID="{81E9632D-F2A4-4F7F-BD71-92DA084970B8}" ShortID="289037481">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="Drum Atten" ID="{EDCFF188-096B-4F29-A5D8-31ACF871250C}" WorkUnitID="{AEDFB089-69E0-4D18-BB43-4107A9F11971}"/>
+							<ObjectRef Name="Default Atten" ID="{711B0226-10BC-4FBD-B7B4-CF6EC442FDC1}" WorkUnitID="{AEDFB089-69E0-4D18-BB43-4107A9F11971}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F2CACA1-DBA9-447F-AEA8-6D7FEB5CB7FB}"/>
@@ -19,17 +23,17 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Group - 0014 - DRUMS" ID="{E38242AC-929E-4674-96CC-C5C26756B793}">
+						<AudioFileSource Name="Group - 0016 - BASS" ID="{108FFA43-0C89-4E8A-9C87-1000E73B537B}">
 							<Language>SFX</Language>
-							<AudioFile>Group - 0014 - DRUMS.wav</AudioFile>
+							<AudioFile>Group - 0016 - BASS.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="797023405"/>
+								<MediaID ID="241893714"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ObjectLists/>
 					<ActiveSourceList>
-						<ActiveSource Name="Group - 0014 - DRUMS" ID="{E38242AC-929E-4674-96CC-C5C26756B793}" Platform="Linked"/>
+						<ActiveSource Name="Group - 0016 - BASS" ID="{108FFA43-0C89-4E8A-9C87-1000E73B537B}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

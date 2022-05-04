@@ -25,6 +25,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Group___0016___BASS" ID="{22A945D3-39AC-424C-991E-3B8F80958E13}">
+					<ChildrenList>
+						<Action Name="" ID="{36AFA00A-C1DC-467C-A9E1-FB4BC197B2F9}" ShortID="1039762139">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Group - 0016 - BASS" ID="{81E9632D-F2A4-4F7F-BD71-92DA084970B8}" WorkUnitID="{D4ACB6D3-4E51-462B-B996-920173CC5512}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Group___0037___GTR" ID="{2EB7D072-EC33-4D80-A237-C57BB681A6FC}">
+					<ChildrenList>
+						<Action Name="" ID="{850C35F5-D891-487A-81A0-E7EE3795F36B}" ShortID="173995261">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Group - 0037 - GTR" ID="{7158F049-4DC8-4059-BE57-DC218778E0B6}" WorkUnitID="{364A586C-1542-45F8-820C-BB1D65CE0570}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Group___0060___FX" ID="{EE2AE665-BBCF-4F64-91FF-662C2408A5DC}">
+					<ChildrenList>
+						<Action Name="" ID="{B3DD427B-784B-4F4D-B746-EF4E05D42422}" ShortID="1038353875">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Group - 0060 - FX" ID="{3AE07EDA-E5E6-408F-80C9-5A47ADBD749D}" WorkUnitID="{26F6F76C-279F-4E42-B975-F9BB41D65CEE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

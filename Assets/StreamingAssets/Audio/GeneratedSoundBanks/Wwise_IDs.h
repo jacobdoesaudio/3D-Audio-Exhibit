@@ -14,7 +14,10 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_GROUP___0014___DRUMS = 3433433191U;
+        static const AkUniqueID PLAY_GROUP___0016___BASS = 1246022167U;
         static const AkUniqueID PLAY_GROUP___0020___KEYS = 3596766455U;
+        static const AkUniqueID PLAY_GROUP___0037___GTR = 2912176820U;
+        static const AkUniqueID PLAY_GROUP___0060___FX = 2620452669U;
     } // namespace EVENTS
 
     namespace BANKS

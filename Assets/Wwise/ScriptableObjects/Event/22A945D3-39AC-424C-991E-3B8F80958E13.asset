@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d7f9cbfdc88e61488b2783d233fb339, type: 3}
+  m_Name: 22A945D3-39AC-424C-991E-3B8F80958E13
+  m_EditorClassIdentifier: 
+  objectName: Play_Group___0016___BASS
+  id: 1246022167
+  guid: 22A945D3-39AC-424C-991E-3B8F80958E13

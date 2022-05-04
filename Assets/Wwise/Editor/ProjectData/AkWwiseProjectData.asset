@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f16bd0e51a02c54b901eebf1865664e4
     GuidInternal: 
-    m_lastTime: -8585499930879056461
+    m_lastTime: -8585499816412856223
     List:
     - name: MainScene
       guid: 95027746f526074992b130bb1a590b05
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 27fee8657ca2eb42bbc551dce2f65d28
     GuidInternal: 
-    m_lastTime: -8585499930879126488
+    m_lastTime: -8585499816538893895
     List:
     - name: Play_Group___0014___DRUMS
       guid: 3085b97e2b9cf14eade00515dbf4b38e
@@ -110,6 +110,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3085b97e2b9cf14eade00515dbf4b38e
       Path: Events\Default Work Unit\Play_Group___0014___DRUMS
+      maxAttenuation: 60
+      maxDuration: 190.34485
+      minDuration: 190.34485
+    - name: Play_Group___0016___BASS
+      guid: d345a922ac394c42991e3b8f80958e13
+      id: 1246022167
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 27fee8657ca2eb42bbc551dce2f65d28
+      - ElementName: Play_Group___0016___BASS
+        ObjectType: 3
+        guid: d345a922ac394c42991e3b8f80958e13
+      Path: Events\Default Work Unit\Play_Group___0016___BASS
       maxAttenuation: 20
       maxDuration: 190.34485
       minDuration: 190.34485
@@ -128,6 +145,40 @@ MonoBehaviour:
         guid: 2e316e333e20cd4e832d31eb1f229c4c
       Path: Events\Default Work Unit\Play_Group___0020___KEYS
       maxAttenuation: 20
+      maxDuration: 190.34485
+      minDuration: 190.34485
+    - name: Play_Group___0037___GTR
+      guid: 72d0b72e33ec804da237c57bb681a6fc
+      id: 2912176820
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 27fee8657ca2eb42bbc551dce2f65d28
+      - ElementName: Play_Group___0037___GTR
+        ObjectType: 3
+        guid: 72d0b72e33ec804da237c57bb681a6fc
+      Path: Events\Default Work Unit\Play_Group___0037___GTR
+      maxAttenuation: 20
+      maxDuration: 190.34485
+      minDuration: 190.34485
+    - name: Play_Group___0060___FX
+      guid: 65e62aeecfbb644f91ff662c2408a5dc
+      id: 2620452669
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 27fee8657ca2eb42bbc551dce2f65d28
+      - ElementName: Play_Group___0060___FX
+        ObjectType: 3
+        guid: 65e62aeecfbb644f91ff662c2408a5dc
+      Path: Events\Default Work Unit\Play_Group___0060___FX
+      maxAttenuation: 60
       maxDuration: 190.34485
       minDuration: 190.34485
   RtpcWwu:
@@ -187,7 +238,7 @@ MonoBehaviour:
     m_lastTime: -8585499956142900459
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000006000000070000000a000000d9000000da000000fd000000fe0000009401000095010000
+  ExpandedWaapiItemIds: 0100000006000000070000000a000000c3000000c4000000d9000000da000000f6000000f7000000fd000000fe0000009401000095010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

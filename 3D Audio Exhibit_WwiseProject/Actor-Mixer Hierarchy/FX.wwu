@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{DC48B8B8-9297-47C2-8D58-A42E6AC1500E}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{26F6F76C-279F-4E42-B975-F9BB41D65CEE}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Drums" ID="{DC48B8B8-9297-47C2-8D58-A42E6AC1500E}" PersistMode="Standalone">
+		<WorkUnit Name="FX" ID="{26F6F76C-279F-4E42-B975-F9BB41D65CEE}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="Group - 0014 - DRUMS" ID="{FE6A617D-B325-4F43-9186-3605463F014F}" ShortID="692226497">
+				<Sound Name="Group - 0060 - FX" ID="{3AE07EDA-E5E6-408F-80C9-5A47ADBD749D}" ShortID="584710498">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -19,17 +24,17 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Group - 0014 - DRUMS" ID="{E38242AC-929E-4674-96CC-C5C26756B793}">
+						<AudioFileSource Name="Group - 0060 - FX" ID="{F7985A01-50CF-4633-A7CA-28C4CB2B4594}">
 							<Language>SFX</Language>
-							<AudioFile>Group - 0014 - DRUMS.wav</AudioFile>
+							<AudioFile>Group - 0060 - FX.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="797023405"/>
+								<MediaID ID="394566722"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ObjectLists/>
 					<ActiveSourceList>
-						<ActiveSource Name="Group - 0014 - DRUMS" ID="{E38242AC-929E-4674-96CC-C5C26756B793}" Platform="Linked"/>
+						<ActiveSource Name="Group - 0060 - FX" ID="{F7985A01-50CF-4633-A7CA-28C4CB2B4594}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
