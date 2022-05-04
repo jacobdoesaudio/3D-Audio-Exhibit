@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="MainScene" ID="{46770295-26F5-4907-92B1-30BB1A590B05}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Group___0028___SYNTHS" ID="{46E67162-6894-40BA-9E42-4749FC548FFE}" WorkUnitID="{65E8FE27-A27C-42EB-BBC5-51DCE2F65D28}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Group___0046___VOCALS" ID="{87B71367-5EA2-41D4-A2BF-25C17172F397}" WorkUnitID="{65E8FE27-A27C-42EB-BBC5-51DCE2F65D28}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Group___0016___BASS" ID="{22A945D3-39AC-424C-991E-3B8F80958E13}" WorkUnitID="{65E8FE27-A27C-42EB-BBC5-51DCE2F65D28}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Group___0060___FX_redux" ID="{1B710E96-A6D1-44A1-9FAF-AEDEF2ACD808}" WorkUnitID="{65E8FE27-A27C-42EB-BBC5-51DCE2F65D28}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Group___0039___SAX" ID="{FE8AF802-9569-474C-A8A8-5EE8BBD7B525}" WorkUnitID="{65E8FE27-A27C-42EB-BBC5-51DCE2F65D28}" Origin="Manual" Filter="7"/>

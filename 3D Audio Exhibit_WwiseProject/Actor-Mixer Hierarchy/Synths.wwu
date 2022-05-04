@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9A026355-D052-4618-9D7E-9FCA2B976282}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Synths" ID="{9A026355-D052-4618-9D7E-9FCA2B976282}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Group - 0028 - SYNTHS" ID="{8A1980E9-A4E0-4D65-8DF9-2C8D091A4820}" ShortID="573037175">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default Atten" ID="{711B0226-10BC-4FBD-B7B4-CF6EC442FDC1}" WorkUnitID="{AEDFB089-69E0-4D18-BB43-4107A9F11971}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2F2CACA1-DBA9-447F-AEA8-6D7FEB5CB7FB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3121E877-DB96-4AB8-BF47-55A81420E75C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Group - 0028 - SYNTHS" ID="{CA0EEF98-9906-42EC-B244-40F9D7EAB755}">
+							<Language>SFX</Language>
+							<AudioFile>Group - 0028 - SYNTHS.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="802551649"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Group - 0028 - SYNTHS" ID="{CA0EEF98-9906-42EC-B244-40F9D7EAB755}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

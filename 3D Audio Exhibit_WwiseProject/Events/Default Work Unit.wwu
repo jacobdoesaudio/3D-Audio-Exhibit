@@ -73,6 +73,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Group___0028___SYNTHS" ID="{46E67162-6894-40BA-9E42-4749FC548FFE}">
+					<ChildrenList>
+						<Action Name="" ID="{A3970B8C-BA86-4F6A-B5F0-A1AEB3BA58EC}" ShortID="495497888">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Group - 0028 - SYNTHS" ID="{8A1980E9-A4E0-4D65-8DF9-2C8D091A4820}" WorkUnitID="{9A026355-D052-4618-9D7E-9FCA2B976282}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Group___0046___VOCALS" ID="{87B71367-5EA2-41D4-A2BF-25C17172F397}">
+					<ChildrenList>
+						<Action Name="" ID="{86EFAC6C-FCA1-4036-8B70-33DCB20E5412}" ShortID="708519756">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Group - 0046 - VOCALS" ID="{677BB310-D992-46AB-B7B5-ABF992CF9808}" WorkUnitID="{05E96664-0366-4516-8BE2-16B7BBBF27E1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

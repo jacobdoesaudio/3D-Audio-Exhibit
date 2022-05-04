@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Sound Name="Group - 0060 - FX-redux" ID="{5656175F-E07D-4FD2-9ABB-A2EC62B68087}" ShortID="776780428">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">

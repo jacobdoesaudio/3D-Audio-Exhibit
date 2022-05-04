@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 27fee8657ca2eb42bbc551dce2f65d28
     GuidInternal: 
-    m_lastTime: -8585499123933646446
+    m_lastTime: -8585499076694748452
     List:
     - name: Play_Group___0014___DRUMS
       guid: 3085b97e2b9cf14eade00515dbf4b38e
@@ -147,6 +147,23 @@ MonoBehaviour:
       maxAttenuation: 20
       maxDuration: 190.34485
       minDuration: 190.34485
+    - name: Play_Group___0028___SYNTHS
+      guid: 6271e6469468ba409e424749fc548ffe
+      id: 294034842
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 27fee8657ca2eb42bbc551dce2f65d28
+      - ElementName: Play_Group___0028___SYNTHS
+        ObjectType: 3
+        guid: 6271e6469468ba409e424749fc548ffe
+      Path: Events\Default Work Unit\Play_Group___0028___SYNTHS
+      maxAttenuation: 20
+      maxDuration: 190.34485
+      minDuration: 190.34485
     - name: Play_Group___0037___GTR
       guid: 72d0b72e33ec804da237c57bb681a6fc
       id: 2912176820
@@ -195,7 +212,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 960e711bd1a6a1449fafaedef2acd808
       Path: Events\Default Work Unit\Play_Group___0060___FX_redux
-      maxAttenuation: 0
+      maxAttenuation: 60
       maxDuration: 190.34485
       minDuration: 190.34485
   RtpcWwu:
@@ -255,7 +272,7 @@ MonoBehaviour:
     m_lastTime: -8585499956142900459
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000300000006000000070000000a0000000e00000010000000110000001300000015000000170000007300000074000000c3000000c4000000d9000000da000000e5000000e6000000f6000000f7000000fd000000fe0000009401000095010000
+  ExpandedWaapiItemIds: 010000000300000006000000070000000a0000000e0000001000000011000000130000001500000017000000500000005100000073000000740000009d0000009e000000c3000000c4000000d9000000da000000e5000000e6000000f6000000f7000000fd000000fe0000000e0100000f0100009401000095010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

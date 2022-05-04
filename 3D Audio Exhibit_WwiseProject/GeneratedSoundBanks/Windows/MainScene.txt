@@ -1,16 +1,20 @@
 Event	ID	Name			Wwise Object Path	Notes
+	294034842	Play_Group___0028___SYNTHS			\Default Work Unit\Play_Group___0028___SYNTHS	
 	1211835638	Play_Group___0060___FX_redux			\Default Work Unit\Play_Group___0060___FX_redux	
 	1246022167	Play_Group___0016___BASS			\Default Work Unit\Play_Group___0016___BASS	
 	2044558763	Play_Group___0039___SAX			\Default Work Unit\Play_Group___0039___SAX	
 	2912176820	Play_Group___0037___GTR			\Default Work Unit\Play_Group___0037___GTR	
 	3433433191	Play_Group___0014___DRUMS			\Default Work Unit\Play_Group___0014___DRUMS	
 	3596766455	Play_Group___0020___KEYS			\Default Work Unit\Play_Group___0020___KEYS	
+	4166858865	Play_Group___0046___VOCALS			\Default Work Unit\Play_Group___0046___VOCALS	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	82250543	Group - 0046 - VOCALS	C:\Users\jacob\3D Audio Exhibit\3D Audio Exhibit_WwiseProject\.cache\Windows\SFX\Group - 0046 - VOCALS_10C4C929.wem		\Actor-Mixer Hierarchy\Vocals\Group - 0046 - VOCALS		36546276
 	126495458	Group - 0037 - GTR	C:\Users\jacob\3D Audio Exhibit\3D Audio Exhibit_WwiseProject\.cache\Windows\SFX\Group - 0037 - GTR_10C4C929.wem		\Actor-Mixer Hierarchy\Guitar\Group - 0037 - GTR		36546276
 	218483781	Group - 0020 - KEYS	C:\Users\jacob\3D Audio Exhibit\3D Audio Exhibit_WwiseProject\.cache\Windows\SFX\Group - 0020 - KEYS_10C4C929.wem		\Actor-Mixer Hierarchy\Keys\Group - 0020 - KEYS		36546276
 	241893714	Group - 0016 - BASS	C:\Users\jacob\3D Audio Exhibit\3D Audio Exhibit_WwiseProject\.cache\Windows\SFX\Group - 0016 - BASS_10C4C929.wem		\Actor-Mixer Hierarchy\Bass\Group - 0016 - BASS		36546276
 	394566722	Group - 0060 - FX-redux	C:\Users\jacob\3D Audio Exhibit\3D Audio Exhibit_WwiseProject\.cache\Windows\SFX\Group - 0060 - FX_10C4C929.wem		\Actor-Mixer Hierarchy\FX\Group - 0060 - FX-redux		36546276
 	797023405	Group - 0014 - DRUMS	C:\Users\jacob\3D Audio Exhibit\3D Audio Exhibit_WwiseProject\.cache\Windows\SFX\Group - 0014 - DRUMS_10C4C929.wem		\Actor-Mixer Hierarchy\Drums\Group - 0014 - DRUMS		36546276
+	802551649	Group - 0028 - SYNTHS	C:\Users\jacob\3D Audio Exhibit\3D Audio Exhibit_WwiseProject\.cache\Windows\SFX\Group - 0028 - SYNTHS_10C4C929.wem		\Actor-Mixer Hierarchy\Synths\Group - 0028 - SYNTHS		36546276
 	1020923345	Group - 0039 - SAX	C:\Users\jacob\3D Audio Exhibit\3D Audio Exhibit_WwiseProject\.cache\Windows\SFX\Group - 0039 - SAX_10C4C929.wem		\Actor-Mixer Hierarchy\Horns\Group - 0039 - SAX		36546276
 
