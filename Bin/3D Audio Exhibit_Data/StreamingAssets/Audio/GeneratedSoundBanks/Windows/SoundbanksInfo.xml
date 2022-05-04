@@ -16,16 +16,24 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3587119738" Language="SFX" Hash="3990151806">
+		<SoundBank Id="3587119738" Language="SFX" Hash="3552636328">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainScene</ObjectPath>
 			<ShortName>MainScene</ShortName>
 			<Path>MainScene.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3433433191" Name="Play_Group___0014___DRUMS" ObjectPath="\Events\Default Work Unit\Play_Group___0014___DRUMS" MaxAttenuation="20." DurationType="OneShot" DurationMin="190.344849" DurationMax="190.344849">
+				<Event Id="3433433191" Name="Play_Group___0014___DRUMS" ObjectPath="\Events\Default Work Unit\Play_Group___0014___DRUMS" MaxAttenuation="60." DurationType="OneShot" DurationMin="190.344849" DurationMax="190.344849">
 					<IncludedMemoryFiles>
 						<File Id="797023405" Language="SFX">
 							<ShortName>Group - 0014 - DRUMS.wav</ShortName>
 							<Path>SFX\Group - 0014 - DRUMS_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1246022167" Name="Play_Group___0016___BASS" ObjectPath="\Events\Default Work Unit\Play_Group___0016___BASS" MaxAttenuation="35." DurationType="OneShot" DurationMin="190.344849" DurationMax="190.344849">
+					<IncludedMemoryFiles>
+						<File Id="241893714" Language="SFX">
+							<ShortName>Group - 0016 - BASS.wav</ShortName>
+							<Path>SFX\Group - 0016 - BASS_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -34,6 +42,46 @@
 						<File Id="218483781" Language="SFX">
 							<ShortName>Group - 0020 - KEYS.wav</ShortName>
 							<Path>SFX\Group - 0020 - KEYS_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="294034842" Name="Play_Group___0028___SYNTHS" ObjectPath="\Events\Default Work Unit\Play_Group___0028___SYNTHS" MaxAttenuation="20." DurationType="OneShot" DurationMin="190.344849" DurationMax="190.344849">
+					<IncludedMemoryFiles>
+						<File Id="802551649" Language="SFX">
+							<ShortName>Group - 0028 - SYNTHS.wav</ShortName>
+							<Path>SFX\Group - 0028 - SYNTHS_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2912176820" Name="Play_Group___0037___GTR" ObjectPath="\Events\Default Work Unit\Play_Group___0037___GTR" MaxAttenuation="20." DurationType="OneShot" DurationMin="190.344849" DurationMax="190.344849">
+					<IncludedMemoryFiles>
+						<File Id="126495458" Language="SFX">
+							<ShortName>Group - 0037 - GTR.wav</ShortName>
+							<Path>SFX\Group - 0037 - GTR_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2044558763" Name="Play_Group___0039___SAX" ObjectPath="\Events\Default Work Unit\Play_Group___0039___SAX" MaxAttenuation="20." DurationType="OneShot" DurationMin="190.344849" DurationMax="190.344849">
+					<IncludedMemoryFiles>
+						<File Id="1020923345" Language="SFX">
+							<ShortName>Group - 0039 - SAX.wav</ShortName>
+							<Path>SFX\Group - 0039 - SAX_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4166858865" Name="Play_Group___0046___VOCALS" ObjectPath="\Events\Default Work Unit\Play_Group___0046___VOCALS" MaxAttenuation="20." DurationType="OneShot" DurationMin="190.344849" DurationMax="190.344849">
+					<IncludedMemoryFiles>
+						<File Id="82250543" Language="SFX">
+							<ShortName>Group - 0046 - VOCALS.wav</ShortName>
+							<Path>SFX\Group - 0046 - VOCALS_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1211835638" Name="Play_Group___0060___FX_redux" ObjectPath="\Events\Default Work Unit\Play_Group___0060___FX_redux" MaxAttenuation="60." DurationType="OneShot" DurationMin="190.344849" DurationMax="190.344849">
+					<IncludedMemoryFiles>
+						<File Id="394566722" Language="SFX">
+							<ShortName>Group - 0060 - FX.wav</ShortName>
+							<Path>SFX\Group - 0060 - FX_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

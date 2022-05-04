@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f16bd0e51a02c54b901eebf1865664e4
     GuidInternal: 
-    m_lastTime: -8585499132123520021
+    m_lastTime: -8585499062678537725
     List:
     - name: MainScene
       guid: 95027746f526074992b130bb1a590b05
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 27fee8657ca2eb42bbc551dce2f65d28
     GuidInternal: 
-    m_lastTime: -8585499076694748452
+    m_lastTime: -8585499062678467712
     List:
     - name: Play_Group___0014___DRUMS
       guid: 3085b97e2b9cf14eade00515dbf4b38e
@@ -195,6 +195,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 02f88afe69954c47a8a85ee8bbd7b525
       Path: Events\Default Work Unit\Play_Group___0039___SAX
+      maxAttenuation: 20
+      maxDuration: 190.34485
+      minDuration: 190.34485
+    - name: Play_Group___0046___VOCALS
+      guid: 6713b787a25ed441a2bf25c17172f397
+      id: 4166858865
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 27fee8657ca2eb42bbc551dce2f65d28
+      - ElementName: Play_Group___0046___VOCALS
+        ObjectType: 3
+        guid: 6713b787a25ed441a2bf25c17172f397
+      Path: Events\Default Work Unit\Play_Group___0046___VOCALS
       maxAttenuation: 20
       maxDuration: 190.34485
       minDuration: 190.34485
